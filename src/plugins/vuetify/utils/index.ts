@@ -1,0 +1,5 @@
+export * from './types'
+export * from './methods'
+export { default as defaults } from './constants/defaults'
+export { default as textOnColors } from './constants/text-on-colors'
+export { default as letterSpacings } from './constants/letter-spacings'

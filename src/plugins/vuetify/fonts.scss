@@ -1,0 +1,130 @@
+@use '@fontsource/open-sans/scss/mixins' as OpenSans;
+@use '@fontsource/roboto-slab/scss/mixins' as RobotoSlab;
+
+@include OpenSans.fontFace(
+  $weight: 100,
+  $display: fallback,
+  $fontDir: '@fontsource/open-sans/files',
+  $unicodeMap: (
+    cyrillic: map-get(OpenSans.$unicodeMap, 'cyrillic'),
+    latin: map-get(OpenSans.$unicodeMap, 'latin')
+  )
+);
+@include OpenSans.fontFace(
+  $weight: 300,
+  $display: fallback,
+  $fontDir: '@fontsource/open-sans/files',
+  $unicodeMap: (
+    cyrillic: map-get(OpenSans.$unicodeMap, 'cyrillic'),
+    latin: map-get(OpenSans.$unicodeMap, 'latin')
+  )
+);
+@include OpenSans.fontFace(
+  $weight: 400,
+  $display: fallback,
+  $fontDir: '@fontsource/open-sans/files',
+  $unicodeMap: (
+    cyrillic: map-get(OpenSans.$unicodeMap, 'cyrillic'),
+    latin: map-get(OpenSans.$unicodeMap, 'latin')
+  )
+);
+@include OpenSans.fontFace(
+  $weight: 500,
+  $display: fallback,
+  $fontDir: '@fontsource/open-sans/files',
+  $unicodeMap: (
+    cyrillic: map-get(OpenSans.$unicodeMap, 'cyrillic'),
+    latin: map-get(OpenSans.$unicodeMap, 'latin')
+  )
+);
+@include OpenSans.fontFace(
+  $weight: 600,
+  $display: fallback,
+  $fontDir: '@fontsource/open-sans/files',
+  $unicodeMap: (
+    cyrillic: map-get(OpenSans.$unicodeMap, 'cyrillic'),
+    latin: map-get(OpenSans.$unicodeMap, 'latin')
+  )
+);
+@include OpenSans.fontFace(
+  $weight: 700,
+  $display: fallback,
+  $fontDir: '@fontsource/open-sans/files',
+  $unicodeMap: (
+    cyrillic: map-get(OpenSans.$unicodeMap, 'cyrillic'),
+    latin: map-get(OpenSans.$unicodeMap, 'latin')
+  )
+);
+@include OpenSans.fontFace(
+  $weight: 800,
+  $display: fallback,
+  $fontDir: '@fontsource/open-sans/files',
+  $unicodeMap: (
+    cyrillic: map-get(OpenSans.$unicodeMap, 'cyrillic'),
+    latin: map-get(OpenSans.$unicodeMap, 'latin')
+  )
+);
+
+@include RobotoSlab.fontFace(
+  $weight: 100,
+  $display: fallback,
+  $fontDir: '@fontsource/roboto-slab/files',
+  $unicodeMap: (
+    cyrillic: map-get(RobotoSlab.$unicodeMap, 'cyrillic'),
+    latin: map-get(RobotoSlab.$unicodeMap, 'latin')
+  )
+);
+@include RobotoSlab.fontFace(
+  $weight: 300,
+  $display: fallback,
+  $fontDir: '@fontsource/roboto-slab/files',
+  $unicodeMap: (
+    cyrillic: map-get(RobotoSlab.$unicodeMap, 'cyrillic'),
+    latin: map-get(RobotoSlab.$unicodeMap, 'latin')
+  )
+);
+@include RobotoSlab.fontFace(
+  $weight: 400,
+  $display: fallback,
+  $fontDir: '@fontsource/roboto-slab/files',
+  $unicodeMap: (
+    cyrillic: map-get(RobotoSlab.$unicodeMap, 'cyrillic'),
+    latin: map-get(RobotoSlab.$unicodeMap, 'latin')
+  )
+);
+@include RobotoSlab.fontFace(
+  $weight: 500,
+  $display: fallback,
+  $fontDir: '@fontsource/roboto-slab/files',
+  $unicodeMap: (
+    cyrillic: map-get(RobotoSlab.$unicodeMap, 'cyrillic'),
+    latin: map-get(RobotoSlab.$unicodeMap, 'latin')
+  )
+);
+@include RobotoSlab.fontFace(
+  $weight: 600,
+  $display: fallback,
+  $fontDir: '@fontsource/roboto-slab/files',
+  $unicodeMap: (
+    cyrillic: map-get(RobotoSlab.$unicodeMap, 'cyrillic'),
+    latin: map-get(RobotoSlab.$unicodeMap, 'latin')
+  )
+);
+@include RobotoSlab.fontFace(
+  $weight: 700,
+  $display: fallback,
+  $fontDir: '@fontsource/roboto-slab/files',
+  $unicodeMap: (
+    cyrillic: map-get(RobotoSlab.$unicodeMap, 'cyrillic'),
+    latin: map-get(RobotoSlab.$unicodeMap, 'latin')
+  )
+);
+@include RobotoSlab.fontFace(
+  $weight: 800,
+  $display: fallback,
+  $fontDir: '@fontsource/roboto-slab/files',
+  $unicodeMap: (
+    cyrillic: map-get(RobotoSlab.$unicodeMap, 'cyrillic'),
+    latin: map-get(RobotoSlab.$unicodeMap, 'latin')
+  )
+);
